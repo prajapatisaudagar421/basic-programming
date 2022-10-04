@@ -1,7 +1,7 @@
 #include<stdio.h>
 void countVowelConsonats(char line[150]);
 void main(){
-int arr[150];
+char arr[150];
 scanf("%[^\n]",arr);
 countVowelConsonats(arr);
 }

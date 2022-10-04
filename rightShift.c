@@ -8,12 +8,12 @@ void main(){
     }
     int k = 0;
     int temp[6];
-    for (int i = shift; i < size; i++)
+    for (int i = size-1; i > shift; i--)
     {
         temp[k] = arr[i];
         k++;
     }
-    for (int j = 0; j < shift; j++)
+    for (int j = 0; j <= shift; j++)
     {
         temp[k] = arr[j];
         k++;
